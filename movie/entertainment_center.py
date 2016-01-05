@@ -2,6 +2,7 @@
 import fresh_tomatoes
 import media
 
+# create movie objects
 hateful_eight = media.Movie("The Hateful Eight", "https://youtu.be/nIOmotayDMY",
 	"https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/The_Hateful_Eight.jpg/220px-The_Hateful_Eight.jpg")
 
@@ -12,7 +13,8 @@ rock_the_kasbah =  media.Movie("Rock The Kasbah", "https://www.youtube.com/watch
 last_witchhunter = media.Movie("The Last Witch Hunter", "https://www.youtube.com/watch?v=xsuG2JUgs_8",
 	"https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/The_Last_Witch_Hunter_poster.jpg/220px-The_Last_Witch_Hunter_poster.jpg")
 
-
+# build list of movie list
 movies = [ hateful_eight, rock_the_kasbah, last_witchhunter]
 
+# run main function
 fresh_tomatoes.open_movies_page(movies)
